@@ -35,209 +35,32 @@
             border-radius: 15px;
             padding: 30px;
             box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
-            border: 2px solid #3498db; /* Azul moderno */
+            border: 2px solid #e74c3c; /* Rojo */
         }
 
         /* Encabezado */
         header {
             text-align: center;
             margin-bottom: 20px;
-            color: #3498db; /* Azul */
+            color: #e74c3c; /* Rojo */
         }
 
         header h1 {
             font-size: 2.5rem;
-            color: #3498db;
+            color: #e74c3c;
             margin-bottom: 10px;
         }
 
         header nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-        }
-
-        header nav ul li {
-            display: inline-block;
-            margin: 0 15px;
-        }
-
-        header nav ul li a {
-            text-decoration: none;
-            color: #3498db;
-            font-size: 1.1rem;
-            padding: 10px 20px;
-            border-radius: 5px;
-            border: 1px solid #3498db;
-        }
-
-        header nav ul li a:hover {
-            background-color: #3498db;
-            color: #fff;
-        }
-
-        /* Secciones */
-        section {
-            margin-bottom: 40px;
-        }
-
-        section h2 {
-            font-size: 2rem;
-            color: #3498db;
-            margin-bottom: 15px;
-        }
-
-        section p {
-            font-size: 1.1rem;
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        /* Listas de deportistas */
-        ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        li {
-            width: 45%;
-            background-color: #ecf0f1;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        li img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-        }
-
-        .deportista h3 {
-            font-size: 1.5rem;
-            margin-top: 10px;
-            color: #3498db;
-        }
-
-        .deportista p {
-            font-size: 1.1rem;
-            color: #7f8c8d;
-        }
-
-        /* Tabla de deporte y estudio */
-        table {
-            width: 100%;
-            margin-top: 30px;
-            border-collapse: collapse;
-        }
-
-        table th, table td {
-            padding: 12px;
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-
-        table th {
-            background-color: #3498db;
-            color: #fff;
-        }
-
-        table tr:nth-child(even) {
-            background-color: #f4f4f4;
-        }
-
-        /* Estilos de pie de página */
-        footer {
-            text-align: center;
-            font-size: 0.9rem;
-            margin-top: 30px;
-            color: #7f8c8d;
-        }
-
-        footer a {
-            color: #3498db;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="main-container">
-        <!-- Encabezado -->
-        <header>
-            <h1>Deporte y Estudio: ¡Pueden Ir Juntos!</h1>
-            <nav>
-                <ul>
-                    <li><a href="#intro">Introducción</a></li>
-                    <li><a href="#deportistas">Deportistas Ejemplares</a></li>
-                    <li><a href="#beneficios">Beneficios</a></li>
-                    <li><a href="#conclusiones">Conclusiones</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Introducción -->
-        <section id="intro">
-            <h2>Introducción</h2>
-            <p>En la sociedad actual, es común pensar que las personas tienen que elegir entre el deporte y el estudio, pero ¿y si te dijera que puedes sobresalir en ambas facetas? A lo largo de la historia, ha habido muchos deportistas de élite que no solo han logrado grandes éxitos en sus respectivos deportes, sino que también han alcanzado logros académicos importantes. En esta página, exploraremos cómo es posible combinar estas dos áreas y cómo beneficia a las personas en su desarrollo integral.</p>
-        </section>
-
-        <!-- Deportistas Ejemplares -->
-        <section id="deportistas">
-            <h2>Deportistas Ejemplares</h2>
-            <p>A continuación, presentamos algunos ejemplos de deportistas que han sabido equilibrar su carrera profesional con sus estudios:</p>
-            <ul>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Andre_Agassi_2011.jpg/800px-Andre_Agassi_2011.jpg" alt="Andre Agassi">
-                    <div class="deportista">
-                        <h3>Andre Agassi (Tenis)</h3>
-                        <p>Además de ser uno de los mejores tenistas de todos los tiempos, Andre Agassi completó sus estudios en la Academia del Desierto y es un defensor de la educación en el deporte.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Serena_Williams_2015.jpg" alt="Serena Williams">
-                    <div class="deportista">
-                        <h3>Serena Williams (Tenis)</h3>
-                        <p>Serena Williams, considerada una de las mejores tenistas de la historia, no solo ha brillado en la cancha, sino que también ha sido una firme defensora de la educación y ha estudiado en la Universidad de Indiana, donde obtuvo un título en Diseño de Moda.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Shaquille_O%27Neal_in_2014.jpg" alt="Shaquille O'Neal">
-                    <div class="deportista">
-                        <h3>Shaquille O'Neal (Baloncesto)</h3>
-                        <p>El legendario jugador de baloncesto Shaquille O'Neal, a pesar de su exitosa carrera en la NBA, se graduó de la Universidad Estatal de Luisiana (LSU) y más tarde obtuvo un MBA.</p>
-                    </div>
-                </li>
-                <li>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Chris_Nowinski_2015.jpg" alt="Chris Nowinski">
-                    <div class="deportista">
-                        <h3>Chris Nowinski (Lucha Libre Profesional)</h3>
-                        <p>Ex luchador de la WWE y ahora neurocientífico, Chris Nowinski dejó la lucha profesional para dedicarse a estudiar los efectos de las conmociones cerebrales en los deportistas y se graduó de Harvard.</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Tabla de Deporte y Estudio -->
-        <section id="beneficios">
-            <h2>Deporte y Estudio: La Combinación Perfecta</h2>
-            <p>A continuación, te mostramos una tabla que refleja cómo el deporte y el estudio se complementan mutu
-           
-           
-            
-           
+            list-style:
        
-       
+      
+          
+        
+        
+          
+                
+                    
                
             
            
